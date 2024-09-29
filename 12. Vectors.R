@@ -63,4 +63,3 @@ l/k
 f<-c("Sohan","Shubham","Suresh","Sangam")
 names(f)=c("1","2","3")
 f[1]
-  
