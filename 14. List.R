@@ -1,5 +1,4 @@
-# List in R language
-# Contains different types of data type elements
+# List in R language Contain different types of data type elements
 
 a<-c(1,23,4,5,7)
 b<-c("Remo","Suresh","George","Tommy","Hillfiger")
