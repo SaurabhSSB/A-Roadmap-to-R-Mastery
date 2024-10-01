@@ -60,3 +60,4 @@ print(student.data)
 
 print(summary(student.data))
 print(summary(student.data$roll_no.))
+print(summary(student.data))
