@@ -1,5 +1,4 @@
-# Factors in R language
-# A factor in R is a data type that represents categorical variables 
+# Factor in R language is a data type that represents categorical variables 
 # with a fixed set of possible values. It is a vector of character strings 
 # or integers, where each element is associated with a level. 
 # The levels are unique values that define the possible categories.
