@@ -42,8 +42,8 @@ rbind(student.data,a)
 
 # Add Column
 
-b<-c("Shinigami-Hollow","Shinigami-Hollow",
-     "Shinigami-Hollow-Fullbring-Quincy","Fullbring")
+b<-c("Shinigami+Hollow","Shinigami+Hollow",
+     "Shinigami+Hollow+Fullbring+Quincy","Fullbring")
 cbind(student.data,Specialisation = b)
 
 # Delete Row
