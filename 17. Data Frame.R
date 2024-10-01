@@ -4,6 +4,7 @@
 # represents a variable or attribute.
 
 # Creating the data frame
+
 student.data<-data.frame(
   roll_no. = c(1:4),
   student_name = c("Tosen","Aizen","Ichigo","Orihime"),
