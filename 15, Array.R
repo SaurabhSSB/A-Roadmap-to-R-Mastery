@@ -1,6 +1,7 @@
 # Arrays in R Language
 # Data can be stored in two or more dimensions
 # array(2,4,5) means 5 matrices of 2 rows and 4 columns
+
 # array(data, dim = c(dim1, dim2, ...)) - General Syntax
 
 a1<-c(1,2,4,5)
@@ -36,4 +37,3 @@ print(a10)
 
 a11<-a10+a7
 print(a11)
-
