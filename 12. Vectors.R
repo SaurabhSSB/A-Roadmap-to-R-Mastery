@@ -1,7 +1,6 @@
 # Data Structures in R language
 
-# Vectors
-# Sequence of Elements which have the same data type
+# Vectors : Sequence of Elements which have the same data type
 # Components : Elements of vector
 
 # length() : no. of elements in vector
