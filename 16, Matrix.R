@@ -1,5 +1,4 @@
-# Matrix in R Language
-# Matrices are two dimensional datasets
+# Matrix in R Language are two dimensional datasets
 # matrix(data, nrow, ncol, byrow = FALSE)- General Syntax
 # dimnames : name rows and columns
 
