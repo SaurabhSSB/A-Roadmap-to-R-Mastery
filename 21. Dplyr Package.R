@@ -46,3 +46,4 @@ library("magrittr")
 data %>% select(name,gender) %>% head
 head(select(data,name,gender)) # Both line are same first one is pipe operator
 
+data %>% arrange(name) %>% head
