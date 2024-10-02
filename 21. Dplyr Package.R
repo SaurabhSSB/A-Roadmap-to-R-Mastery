@@ -39,3 +39,10 @@ filter(data,parch > "2",survived == "1")
 filter(data,gender %in% c("male","female"))
 
 # pipe operator ( %>% ) :  connect functions together in a more readable way
+# pipe operator works from left to right
+install.packages("magrittr")
+library("magrittr")
+
+data %>% select(name,gender) %>% head
+head(select(data,name,gender)) # Both line are same first one is pipe operator
+
