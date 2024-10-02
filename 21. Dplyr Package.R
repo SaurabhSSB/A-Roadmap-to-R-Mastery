@@ -31,4 +31,4 @@ tail(g_data)
 h_data <- select(data,one_of("ticket"))
 head(h_data)
 
-
+filter(data,parch > "2")
