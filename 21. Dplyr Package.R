@@ -33,3 +33,7 @@ head(h_data)
 
 filter(data,parch >= "2")
 filter(data,parch > "2",survived == "1")
+
+# for Vectors
+
+filter(data,gender %in% c("male","female"))
