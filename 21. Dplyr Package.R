@@ -37,3 +37,5 @@ filter(data,parch > "2",survived == "1")
 # for Vectors
 
 filter(data,gender %in% c("male","female"))
+
+# pipe operator ( %>% ) :  connect functions together in a more readable way
