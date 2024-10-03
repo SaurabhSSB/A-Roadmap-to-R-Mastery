@@ -1,5 +1,5 @@
-# Dplyr
-
+# Dplyr - Mainly used for data manipulation purpose in R language 
+library(readxl)
 install.packages("dplyr")
 library("dplyr")
 data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
@@ -9,7 +9,7 @@ data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 # select() - Select Columns
 # filter() - Filter rows
 # arrange() - re-order or arrange rows
-# mutate() - create new columns
+# mutate() - create new columns in dataframe
 # summarise() - summarise values
 # group_by() - group operation in split-apply-combine concept
 
@@ -46,4 +46,13 @@ library("magrittr")
 data %>% select(name,gender) %>% head
 head(select(data,name,gender)) # Both line are same first one is pipe operator
 
-data %>% arrange(name) %>% head
+data %>% arrange(name) %>% head # Properly Arranged
+
+data %>% select(name , survived , age) %>%
+  arrange(survived,age)%>%filter(age>15)%>%head
+
+data<- data %>% mutate(p_a_ratio = pclass / age) %>% head  
+
+y <- group_by(data , survived)
+View(y)
+data %>% group_by(name) 
