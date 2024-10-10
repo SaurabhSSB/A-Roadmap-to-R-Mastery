@@ -41,6 +41,7 @@ filter(data,parch > "2",survived == "1")
 filter(data,gender %in% c("male","female"))
 
 # pipe operator ( %>% ) :  connect functions together in a more readable way
+
 # pipe operator works from left to right
 
 install.packages("magrittr")
@@ -57,5 +58,7 @@ data %>% select(name , survived , age) %>%
 data<- data %>% mutate(p_a_ratio = pclass / age) %>% head  
 
 y <- group_by(data , survived)
+
 View(y)
+
 data %>% group_by(name) 
