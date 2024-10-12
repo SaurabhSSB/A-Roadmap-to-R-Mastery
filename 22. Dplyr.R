@@ -1,8 +1,13 @@
 # Dplyr - Mainly used for data manipulation purpose in R language
+
 library(readxl)
+
 install.packages("dplyr")
+
 library("dplyr")
+
 data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
+
 # Verbs in Dplyr
 # select() - Select Columns
 # filter() - Filter rows
@@ -10,6 +15,7 @@ data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 # mutate() - create new columns in dataframe
 # summarise() - summarise values
 # group_by() - group operation in split-apply-combine concept
+
 names(data)
 a_data <- select(data,name,age,embarked)
 head(a_data)
@@ -27,9 +33,6 @@ g_data <- select(data,matches("ar"))
 tail(g_data)
 h_data <- select(data,one_of("ticket"))
 head(h_data)
-
-
-
 
 filter(data,parch >= "2")
 filter(data,parch > "2",survived == "1")
