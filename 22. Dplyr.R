@@ -15,6 +15,7 @@ data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 # mutate() - create new columns in dataframe
 # summarise() - summarise values
 # group_by() - group operation in split-apply-combine concept
+
 names(data)
 a_data <- select(data,name,age,embarked)
 head(a_data)
@@ -27,9 +28,6 @@ head(d_data)
 e_data <- select(data,ends_with("e"))
 tail(e_data)
 f_data <- select(data,contains("ar"))
-
-
-
 tail(f_data)
 g_data <- select(data,matches("ar"))
 tail(g_data)
