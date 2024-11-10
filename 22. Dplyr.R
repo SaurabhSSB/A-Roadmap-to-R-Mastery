@@ -48,13 +48,11 @@ filter(data,gender %in% c("male","female"))
 install.packages("magrittr")
 library("magrittr")
 
-
-
-
 data %>% select(name,gender) %>% head
 head(select(data,name,gender)) # Both line are same first one is pipe operator
 
 data %>% arrange(name) %>% head # Properly Arranged
+
 data %>% select(name , survived , age) %>%
   arrange(survived,age)%>%filter(age>15)%>%head
 
