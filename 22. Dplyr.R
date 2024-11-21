@@ -3,8 +3,13 @@
 library(readxl)
 
 install.packages("dplyr")
-
 library("dplyr")
+
+
+
+
+
+
 
 data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 
