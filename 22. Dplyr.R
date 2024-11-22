@@ -15,13 +15,9 @@ data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 # mutate() - create new columns in dataframe
 # summarise() - summarise values
 # group_by() - group operation in split-apply-combine concept
+
 names(data)
 a_data <- select(data,name,age,embarked)
-
-
-
-
-
 head(a_data)
 b_data <- select(data,-pclass)
 tail(b_data)
