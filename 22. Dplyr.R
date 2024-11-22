@@ -13,13 +13,9 @@ data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 # filter() - Filter rows
 # arrange() - re-order or arrange rows
 # mutate() - create new columns in dataframe
-
-
-
-
-
 # summarise() - summarise values
 # group_by() - group operation in split-apply-combine concept
+
 names(data)
 a_data <- select(data,name,age,embarked)
 head(a_data)
