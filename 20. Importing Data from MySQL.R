@@ -1,8 +1,8 @@
 # Importing Data from MySQL ( Relational Database )
 # First Create a Database in MySQL
-
 install.packages("RMySQL")
 library("RMySQL")
+
 
 a <- dbConnect(MySQL(),
                username = "root",
