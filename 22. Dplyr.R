@@ -1,4 +1,5 @@
 # Dplyr - Mainly used for data manipulation purpose in R language
+
 library(readxl)
 
 install.packages("dplyr")
@@ -8,7 +9,6 @@ library("dplyr")
 data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
 
 # Verbs in Dplyr
-
 # select() - Select Columns
 # filter() - Filter rows
 # arrange() - re-order or arrange rows
