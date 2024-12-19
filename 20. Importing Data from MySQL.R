@@ -1,6 +1,5 @@
 # Importing Data from MySQL ( Relational Database )
 # First Create a Database in MySQL
-
 install.packages("RMySQL")
 library("RMySQL")
 
@@ -10,6 +9,7 @@ a <- dbConnect(MySQL(),
                host = "localhost", # Not Necessary has default value
                port = 3306, # Not Necessary has default value
                dbname = "Terminator"
+
 )
 
 dbListTables(a)
