@@ -1,10 +1,10 @@
 # Replace the file path with the Excel or CSV file present in the System
+
 # Data Importing from Excel File
 
 library("readxl")
 
 data<-read_excel("C:/Users/Hp/Desktop/titanic.xlsx")
-
 View(data)
 print(data)
 names(data)
